@@ -85,7 +85,7 @@ if menu == "Registra Allenamento":
         # Intestazione con "X" inclusa e input ripetizioni in 2 colonne
         c_title, c_val = st.columns([3.5, 1], vertical_alignment="center")
         with c_title:
-            st.markdown(f"### {nome_blocco} X")
+            st.markdown(f"### {nome_blocco}")
         with c_val:
             ripetizioni_blocco = st.number_input(
                 "volte",
